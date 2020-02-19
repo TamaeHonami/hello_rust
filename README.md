@@ -49,7 +49,9 @@ cargo 1.40.0 (bc8e4c8be 2019-11-22)
 バージョンが表示されていれば問題なし.  
 **表示されない場合は端末を開き直すか`source`コマンドで設定再読み込みを試す**  
 
-### Extra
+## Extra
+
+###  Print "Hello World!!"
 
 `Hello World!!`を表示させる. 
 ソース格納用のディレクトリを作成&移動.  
@@ -98,6 +100,15 @@ XCodeのライセンス承認が終わってないので、エラー文言にあ
 
 ```
 $ sudo xcodebuild -license
+```
+
+### How to rust upgrade
+
+Rust自体をアップグレードする場合について追記.  
+`rustup`を利用して, 下記のコマンド一発でいける.  
+
+```
+$ rustup update
 ```
 
 ## Reference material
